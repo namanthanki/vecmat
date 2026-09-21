@@ -1,0 +1,14 @@
+# C build artifacts
+*.o
+*.a
+*.so
+*.dll
+*.exe
+
+# Build directories
+build/
+out/
+
+# Editor and OS files
+.vscode/
+.DS_Store
