@@ -30,8 +30,8 @@ void print_worked_example(void) {
         printf("  dot(u, v)         = %.3f  (%s)\n", dot,
             dot == 0.0 ? "orthogonal" : "not orthogonal");
  
-    double nu = vector_norm(&u);
-    double nv = vector_norm(&v);
+    double nu = vector_norm_L2(&u);
+    double nv = vector_norm_L2(&v);
     printf("  ||u||             = %.3f\n", nu);
     printf("  ||v||             = %.3f\n", nv);
  
