@@ -13,7 +13,7 @@ NORMS_TARGET = demo_norms_independence
 RM = rm -f
 endif
 
-SOURCES = src/vector.c
+SOURCES = src/vector.c src/matrix.c
 
 all: $(TARGET) $(NORMS_TARGET)
 
